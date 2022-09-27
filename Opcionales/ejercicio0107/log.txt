@@ -1,0 +1,3 @@
+21-09-2022 20:51:02 Fallo de comunicacion con el servidor
+21-09-2022 20:51:35 Conexión recuperada
+21-09-2022 20:51:49 Proceso terminado correctamente

@@ -1,0 +1,14 @@
+21-09-2022 20:51:02 Fallo de comunicacion con el servidor
+21-09-2022 20:51:35 Conexión recuperada
+21-09-2022 20:51:49 Proceso terminado correctamente
+27-09-2022 17:08:23 Nuevo log creado
+27-09-2022 17:09:37 OTRA PRUEBA DE LOG
+27-09-2022 17:09:57 otra más
+27-09-2022 17:11:13 tercera prueba
+27-09-2022 17:11:28 primera prueba con bw.append
+27-09-2022 17:14:28 otra mas
+27-09-2022 17:16:30 a
+27-09-2022 17:16:44 prueba fallida
+27-09-2022 17:19:03 PRUEBA correcta
+27-09-2022 17:19:14 prueba correcta
+27-09-2022 17:19:44 prueba con append

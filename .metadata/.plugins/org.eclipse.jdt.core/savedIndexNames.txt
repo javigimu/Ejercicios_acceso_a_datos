@@ -1,0 +1,5 @@
+INDEX VERSION 1.131+C:\DAM\2\Acceso a Datos\Ejercicios\.metadata\.plugins\org.eclipse.jdt.core
+3477977317.index
+2697891332.index
+1955531445.index
+1865797976.index

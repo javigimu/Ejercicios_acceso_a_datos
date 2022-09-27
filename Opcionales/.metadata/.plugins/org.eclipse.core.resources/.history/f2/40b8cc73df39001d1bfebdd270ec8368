@@ -1,0 +1,14 @@
+package ejercicio0105b;
+
+import java.io.File;
+
+public class Ejercicio0105b {
+
+	public static void main(String[] args) {
+		if (new File("log.txt").exists()) {
+			
+		}else {
+			System.out.println("El fichero no existe");
+		}
+	}
+}

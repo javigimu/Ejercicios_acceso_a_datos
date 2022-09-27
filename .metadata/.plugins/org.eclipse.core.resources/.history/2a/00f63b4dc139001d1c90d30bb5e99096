@@ -1,0 +1,12 @@
+package com.javier.ejercicio0101;
+
+public class Cuenta {
+	private String nombre;
+	private String numCuenta;
+	private double tipoInteres;
+	private double saldo;
+	
+	public Cuenta() {}
+	
+	
+}

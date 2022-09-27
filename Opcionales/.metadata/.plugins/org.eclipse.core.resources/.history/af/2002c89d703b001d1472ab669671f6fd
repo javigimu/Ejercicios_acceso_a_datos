@@ -1,0 +1,62 @@
+package ejercicio0115;
+
+import java.io.File;
+import java.io.IOException;
+import java.io.RandomAccessFile;
+import java.util.Scanner;
+
+/**
+ * comprueba si un fichero bmp es valido y está comprimido
+ * @author Javi
+ *
+ */
+public class Ejercicio0115 {
+
+	public static void main(String[] args) {
+		String nombreFichero;
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("Nombre del fichero bmp: ");
+		nombreFichero = sc.nextLine();
+		
+		if (new File(nombreFichero).exists()) {
+			if (esUnBmpValidoComprimido(nombreFichero)) {
+				System.out.println("Es un fichero bmp comprimido");
+				
+			}else {
+				System.out.println("No es un fichero bmp comprimido");
+			}
+			
+		}else {
+			System.out.println("El fichero no existe");
+		}
+	}
+	
+	private static boolean esUnBmpValidoComprimido(String nombreFichero) {
+		boolean esBmpValidoComprimido = false;
+		
+		if (new File(nombreFichero).exists()) {
+			File fichero = new File(nombreFichero);
+
+			try(RandomAccessFile raf = new RandomAccessFile(nombreFichero, "rw")){
+				int tamanyoCabecera = 54;
+				byte[] datosCabecera = new byte[tamanyoCabecera];
+				raf.read(datosCabecera, 0, tamanyoCabecera);
+				
+				if ((char)datosCabecera[0] == 'B' && 
+						(char)datosCabecera[1] == 'M') {
+					
+					
+					esBmpValidoComprimido = true;
+				}					
+				
+			}catch (IOException ioe) {
+				ioe.printStackTrace();
+			}
+			
+		}else {
+			System.out.println("El fichero no existe");
+		}
+		return esBmpValidoComprimido;
+	}
+}

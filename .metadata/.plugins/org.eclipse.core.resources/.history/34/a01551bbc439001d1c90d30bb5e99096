@@ -1,0 +1,28 @@
+package com.javier.ejercicio0101;
+
+import java.util.Scanner;
+
+/**
+ * Gestión de cuentas bancarias
+ *
+ */
+public class GestorDeCuentas 
+{
+    public static void main( String[] args )
+    {
+        Scanner sc = new Scanner(System.in);
+        String nombre, numero;
+        double tipo, importe;
+        
+        Cuenta cuenta1 = new Cuenta();
+        
+        System.out.print("Nombre: ");
+        nombre = sc.nextLine();
+        System.out.print("Número: ");
+        numero = sc.nextLine();
+        System.out.print("Tipo de interés: ");
+        tipo = sc.nextDouble();
+        System.out.print("Saldo: ");
+        importe = sc.nextDouble();
+    }
+}

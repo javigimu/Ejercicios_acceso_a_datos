@@ -1,0 +1,16 @@
+package ejercicio0102;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+public class Ejercicio0102 {
+
+	public static void main(String[] args) {
+		try (PrintWriter pw = new PrintWriter("datos.txt")) {
+			
+		}catch (IOException ioe) {
+			ioe.printStackTrace();
+		}
+	}
+
+}

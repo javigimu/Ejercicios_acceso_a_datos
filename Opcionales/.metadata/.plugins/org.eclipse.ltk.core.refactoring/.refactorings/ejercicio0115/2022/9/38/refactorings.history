@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;esBmpValido&apos; in &apos;ejercicio0115.Ejercicio0115.esUnBmpValidoComprimido(...)&apos; to &apos;esBmpValidoComprimido&apos;&#x0D;&#x0A;- Original project: &apos;ejercicio0115&apos;&#x0D;&#x0A;- Original element: &apos;ejercicio0115.Ejercicio0115.esUnBmpValidoComprimido(String).esBmpValido&apos;&#x0D;&#x0A;- Renamed element: &apos;esBmpValido&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;esBmpValido&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;ejercicio0115{Ejercicio0115.java[Ejercicio0115~esUnBmpValidoComprimido~QString;@esBmpValido!875!902!883!893!Z!0!false" name="esBmpValidoComprimido" references="true" stamp="1663958181163" version="1.0"/>
+</session>

@@ -1,0 +1,11 @@
+package ejercicio0117;
+
+/**
+ * Serializar personas en el fichero personas.dat
+ * @author Javi
+ *
+ */
+public class SerializarPersona {
+	
+	
+}

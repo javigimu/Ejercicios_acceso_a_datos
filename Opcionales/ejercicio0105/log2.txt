@@ -1,0 +1,2 @@
+27-09-2022 17:19:14 prueba correcta
+27-09-2022 17:19:44 prueba con append

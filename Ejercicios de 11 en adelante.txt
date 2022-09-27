@@ -1,0 +1,41 @@
+Ejercicio 01.11 - Extraer texto de un fichero binario
+Crea un programa que lee el contenido de un fichero binario, volcando a otro fichero (de texto) todo lo que sean caracteres imprimibles (desde el 32 hasta el 127) e ignorando todos los demás caracteres. Los nombres de ambos ficheros pueden estar prefijados
+
+Ejercicio 01.12 - Copiar un fichero binario
+Crea un programa Java capaz de copiar todo el contenido de un fichero en otro fichero. Debes leer todo el fichero inicial y guardarlo en un único bloque que tendrá el mismo tamaño el fichero. Los nombres de ambos ficheros pueden estar prefijados o ser pedidos al usuario, como prefieras.
+
+Ejercicio 01.13 - Fragmentos de un fichero
+Crea un programa Java capaz de partir un fichero en trozos de un tamaño prefijado. Los nombres de ambos ficheros y el tamaño de los fragmentos pueden estar prefijados o ser pedidos al usuario, como prefieras.
+
+Ejercicio 01.14 - BMP validator
+Crea un programa que pida el nombre de un fichero (mirando args o pidiendo al usuario, si no hay args) y diga si parece un BMP válido, comprobando sus dos primeros bytes (sus dos primeros bytes son B y M).
+
+Ejercicio 01.15 - Fichero BMP comprimido?
+Crea un programa que pida al usuario el nombre de un fichero BMP y diga si está comprimido (deberás buscar información sobre cómo es la cabecera de un BMP, que deberás leer como bloque).
+
+Ejercicio 01.16 - MP3, ID3 v1
+Crea un programa que muestre información contenida en las etiquetas de un fichero MP3 con cabecera ID3 versión 1:
+
+Ejercicio 01.17 - Serializar
+Crea un programa que serialice datos de personas (nombre, e-mail, fecha de nacimiento)
+
+Ejercicio 01.18 - Deserializar
+Crea un programa que deserialice datos de personas tomados del fichero "personas.dat"
+
+Ejercicio 01.19 - Ancho y alto de un fichero BMP
+Crea un programa que pida al usuario el nombre de un fichero y diga si parece un BMP válido (sus dos primeros bytes son B y M) y, en ese caso, su ancho y su alto. Debes leer por bloques (la cabecera es un bloque de 54 bytes).
+https://es.wikipedia.org/wiki/Windows_bitmap
+
+Ejercicio 01.20 - Serializar + Deserializar
+Crea un programa capaz de pedir al usuario nuevos datos de amigos (nombre, edad, e-mail, comentarios), mostrar todos los existentes (sólo nombre) o buscar (en nombre, e-mail, y comentarios, independientemente de mayúsculas, y mostrando todos los datos). Cada vez que se añada un amigo, se guardarán sus datos en fichero, usando serialización. Cada vez que se vuelva a entrar al programa, se cargarán los datos existentes.
+
+El menú mostrará las opciones:
+
+1. Añadir una persona.
+
+2. Ver nombres de todos.
+
+3. Buscar
+
+0. Salir
+

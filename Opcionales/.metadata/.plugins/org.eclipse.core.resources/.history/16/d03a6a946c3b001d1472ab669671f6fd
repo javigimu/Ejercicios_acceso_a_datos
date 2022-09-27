@@ -1,0 +1,15 @@
+package ejercicio0114;
+
+/**
+ * valida si un fichero binario es un bmp válido, dos primeros bytes: B y M
+ * @author Javi
+ *
+ */
+public class Ejercicio0114 {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

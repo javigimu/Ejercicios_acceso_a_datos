@@ -1,0 +1,26 @@
+<personas>
+	<persona id="Javier">
+		<nombre>Javier</nombre>
+		<email>javi@gmail.com</email>
+		<edad>42</edad>
+		<comentarios>tecnico</comentarios>
+	</persona>
+	<persona id="ana">
+		<nombre>ana</nombre>
+		<email>ana@gmail.com</email>
+		<edad>44</edad>
+		<comentarios>la jefa</comentarios>
+	</persona>
+	<persona id="Yago">
+		<nombre>Yago</nombre>
+		<email>yago@gmail.com</email>
+		<edad>13</edad>
+		<comentarios>Primogenito</comentarios>
+	</persona>
+	<persona id="Eric">
+		<nombre>Eric</nombre>
+		<email>eric@gmail.com</email>
+		<edad>11</edad>
+		<comentarios>Festero</comentarios>
+	</persona>
+</personas>

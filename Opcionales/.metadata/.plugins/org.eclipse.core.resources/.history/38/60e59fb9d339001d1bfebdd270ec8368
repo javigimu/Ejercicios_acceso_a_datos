@@ -1,0 +1,37 @@
+package ejercicio0103;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.util.Scanner;
+
+public class Ejercicio0103 {
+
+	public static void main(String[] args) {
+		try (PrintWriter pw = new PrintWriter("triangle.txt")) {
+			int ancho, alto;
+			Scanner sc = new Scanner(System.in);
+			
+			System.out.println("Datos del triangulo");
+			System.out.print("Ancho: ");
+			ancho = sc.nextInt();
+			System.out.print("Alto: ");
+			alto = sc.nextInt();
+			
+			for (int i=1; i<=alto; i++) {
+				for (int j=1; j<alto/2 -i; j++) {
+					System.out.print(' ');
+				}
+				for (int j=0; j<i; j++) {
+					System.out.print("*");
+				}
+				System.out.println("*");
+			}
+			
+		}catch(IOException ioe) {
+			ioe.printStackTrace();
+		}catch(Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+}

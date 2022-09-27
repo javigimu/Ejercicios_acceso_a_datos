@@ -1,0 +1,11 @@
+package ejercicio0112;
+
+/**
+ * Copia un fichero binario guardando el fichero inicial en un solo bloque del
+ * tamaño del fichero
+ * @author Javi
+ *
+ */
+public class Ejercicio0112 {
+
+}

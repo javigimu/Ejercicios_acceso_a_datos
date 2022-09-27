@@ -1,0 +1,34 @@
+package ejercicio0105b;
+
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.Scanner;
+
+public class Ejercicio0105b {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		String fichero = "log.txt";
+		
+		if (!(new File(fichero).exists())) {			
+			System.out.println("El fichero no existe");
+			System.out.print("Introduce el nombre del fichero de logs: ");
+			fichero = sc.nextLine();
+		}
+		if (new File(fichero).exists()) {
+			try (BufferedReader br = new BufferedReader(new FileReader(
+					fichero))){
+				
+			}catch (IOException ioe) {
+				ioe.printStackTrace();
+			}catch (Exception e) {
+				e.printStackTrace();
+			}
+			
+		}else {
+			System.out.println("El fichero no existe");
+		}
+	}
+}
