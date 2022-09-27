@@ -1,5 +1,7 @@
-GitRepositoriesView.GitDirectories=C\:\\DAM\\2\\Acceso a Datos\\Ejercicios\\Repositorio_acceso_a_datos\\.git;
-GitRepositoriesView.GitDirectories.relative=C\:\\DAM\\2\\Acceso a Datos\\Ejercicios\\Repositorio_acceso_a_datos\\.git;
+GitRepositoriesView.GitDirectories=C\:\\DAM\\2\\Acceso a Datos\\Ejercicios\\Repositorio_acceso_a_datos\\.git;C\:\\DAM\\2\\Acceso a Datos\\Ejercicios\\.git;
+GitRepositoriesView.GitDirectories.relative=C\:\\DAM\\2\\Acceso a Datos\\Ejercicios\\Repositorio_acceso_a_datos\\.git;C\:\\DAM\\2\\Acceso a Datos\\Ejercicios\\.git;
 RepositorySearchDialogSearchPath=C\:\\DAM\\2\\Acceso a Datos\\Ejercicios
 RepositorySearchDialogSkipHidden=true
+core_defaultRepositoryDir=C\:\\DAM\\2\\Acceso a Datos\\Ejercicios
+core_ssh_default_agent=\\\\.\\pageant
 eclipse.preferences.version=1

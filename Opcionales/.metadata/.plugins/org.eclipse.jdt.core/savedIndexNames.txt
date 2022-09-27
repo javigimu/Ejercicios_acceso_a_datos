@@ -6,7 +6,6 @@ INDEX VERSION 1.131+C:\DAM\2\Acceso a Datos\Ejercicios\Opcionales\.metadata\.plu
 1331326952.index
 558263871.index
 1447124649.index
-2706640580.index
 3092201349.index
 2472700998.index
 3632838240.index
