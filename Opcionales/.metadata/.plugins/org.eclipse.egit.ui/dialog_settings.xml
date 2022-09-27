@@ -2,6 +2,20 @@
 <section name="Workbench">
 	<item key="org.eclipse.egit.ui.internal.clone.GitSelectWizardPageWizardSel" value="0"/>
 	<item key="GitSelectRepositoryPage.lastRepository" value="C:\DAM\2\Acceso a Datos\Ejercicios\Repositorio_acceso_a_datos\.git"/>
+	<list key="CommitDialog.authorValues">
+		<item value="javiergimenez &lt;93931108+javigimu@users.noreply.github.com&gt;"/>
+	</list>
+	<list key="CommitDialog.committerValues">
+		<item value="javiergimenez &lt;93931108+javigimu@users.noreply.github.com&gt;"/>
+	</list>
 	<section name="GitImportWizard">
+	</section>
+	<section name="org.eclipse.egit.ui.internal.staging.StagingView">
+		<item key="MAIN_SASH_FORM_ORIENTATION_VERTICAL" value="true"/>
+		<item key="HORIZONTAL_SASH_FORM_WEIGHT" value="500,500"/>
+		<item key="STAGING_SASH_FORM_WEIGHT" value="200,200"/>
+		<item key="sortItemState" value="false"/>
+	</section>
+	<section name="GitCommitMessageComponent">
 	</section>
 </section>
