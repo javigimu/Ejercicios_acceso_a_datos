@@ -22,7 +22,6 @@ public class ReadXml extends DefaultHandler{
 				
 				String etiquetaActual = "";
 				String nombreAsignatura = "";
-				String curso = "";
 				String contenido = "";
 				
 				// Método que se llama al encontrar inicio de etiqueta '<'
@@ -34,17 +33,11 @@ public class ReadXml extends DefaultHandler{
 					// empieza una nueva y mostramos su id
 					// Si no, memorizamos el nombre para mostrar después
 					etiquetaActual = qName;	
-					
-					if (etiquetaActual == "curso")
-						curso = etiquetaActual;
-					if (etiquetaActual == "nombre")
-						nombreAsignatura = etiquetaActual;
-					
-					
-					// Para mostrar el id de la asignatura
+															
+					/* Para mostrar el id de la asignatura
 					if (etiquetaActual == "asignatura")
 						System.out.println("Asignatura: " 
-								+ attributes.getValue("id"));
+								+ attributes.getValue("id"));*/
 									
 				}
 				
@@ -60,10 +53,16 @@ public class ReadXml extends DefaultHandler{
 						String qName)
 					throws SAXException {
 					
-					// muestra todas las etiquetas con su contenido
-					if (etiquetaActual != "") {
-						System.out.println(" " + etiquetaActual + ": " + 
-								contenido);
+					// muestra el nombre de las asignatuas de segundo
+					if (!etiquetaActual.equals("")) {
+						if (etiquetaActual.equals("nombre")) {
+							nombreAsignatura = contenido;
+						} else if (etiquetaActual.equals("curso")) {
+							if (contenido.equalsIgnoreCase("segundo")) {
+								System.out.println("Nombre de asignatura: " +
+										nombreAsignatura);
+							}
+						}
 						etiquetaActual = "";
 					}
 				}
