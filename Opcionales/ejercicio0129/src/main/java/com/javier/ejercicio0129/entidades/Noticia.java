@@ -1,5 +1,6 @@
 package com.javier.ejercicio0129.entidades;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -8,7 +9,7 @@ import java.util.List;
  * @author Javi
  *
  */
-public class Noticia {
+public class Noticia implements Serializable {
 	
 	private String title;
 	private String description;

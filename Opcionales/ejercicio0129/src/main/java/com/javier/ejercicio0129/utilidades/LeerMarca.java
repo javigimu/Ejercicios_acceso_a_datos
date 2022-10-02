@@ -25,19 +25,22 @@ import com.javier.ejercicio0129.entidades.Noticia;
 public class LeerMarca {
 
 	static URL dir = null;
-	public static List<Noticia> obtenerNoticiasMarca() {
+	public static List<Noticia> obtenerNoticiasMarca(List<Noticia> listaNoticias) {		
 		
-		List<Noticia> listaNoticias = new ArrayList<>();
+		if (listaNoticias == null)
+			listaNoticias = new ArrayList<>();
+			
 		List<String> listaUrl = obtenerXmls();
 		
 		if (listaUrl != null) {			
 			
 	        try {        	
-	        	System.out.println("Imprimiendo noticias..."); 
+	        	//System.out.println("Imprimiendo noticias..."); 
 	        	
 	        	for (String url : listaUrl) {
 	        		
-	        		String nombreUrl = extraerNombreUrl(url);
+	        		//String nombreUrl = extraerNombreUrl(url);
+	        		//System.out.println(nombreUrl.toUpperCase());
 	        	
 		            DocumentBuilderFactory dbFactory 
 		                = DocumentBuilderFactory.newInstance();
@@ -48,9 +51,8 @@ public class LeerMarca {
 		            doc.getDocumentElement().normalize();
 		            NodeList nList = doc.getElementsByTagName("item");
 		            
-		            List<String> categoryList = new ArrayList<>();		            
-		            
-                    System.out.println(nombreUrl.toUpperCase());
+		            List<String> categoryList = new ArrayList<>();		
+                    
 		            for (int temp = 0; temp < nList.getLength(); temp++) {
 		                Node nNode = nList.item(temp);
 		                if (nNode.getNodeType() == Node.ELEMENT_NODE) {
@@ -66,7 +68,8 @@ public class LeerMarca {
 		                    		.item(0).getTextContent();
 		                    
 		                    int numItems = 
-		                    		eElement.getElementsByTagName("category").getLength();
+		                    		eElement.getElementsByTagName("category")
+		                    			.getLength();
 		                    for (int i = 0; i < numItems; i++) {
 		                    	categoryList.add(
 		                    			eElement.getElementsByTagName("category")
@@ -80,8 +83,8 @@ public class LeerMarca {
 		                    
 		                    
 		                    if (!existeNoticiaConGuid(listaNoticias, guid))	 {                   
-			                    Noticia n = new Noticia(title, description, creator, 
-			                    		categoryList, guid, pubDate);
+			                    Noticia n = new Noticia(title, description,
+			                    		creator, categoryList, guid, pubDate);
 			                    listaNoticias.add(n);
 			                    //System.out.println(n);
 			                    //System.out.println();			                    
@@ -89,7 +92,7 @@ public class LeerMarca {
 		                    categoryList.clear();
 		                }
 		            }
-		            hacerPausa();
+		            //hacerPausa(); hace una pausa tras cada url de noticias
 	        	}
 	        } catch (Exception e) {
 	            e.printStackTrace();
@@ -160,7 +163,7 @@ public class LeerMarca {
 		boolean existeNoticia = false;
 		int i = 0;
 		
-		while (listaNoticias.size() < i && !existeNoticia)
+		while (listaNoticias.size() > i && !existeNoticia)
 		{
 			if (listaNoticias.get(i).contieneGuid(guid))
 				existeNoticia = true;
@@ -175,6 +178,15 @@ public class LeerMarca {
 		int inicio = url.lastIndexOf('/');
 	 	int fin = url.lastIndexOf(".xml");
 	 	return url.substring(inicio+1, fin);
-	}
+	}	
 	
+	public static boolean pedirHacerPausa() {
+		Scanner sc = new Scanner(System.in);
+		System.out.print("¿Deseas hacer pausa tras cada noticia? (s/n) ");
+		String respuesta = sc.nextLine();
+		if (respuesta.equalsIgnoreCase("s"))
+			return true;
+		else
+			return false;
+	}
 }
