@@ -1035,3 +1035,21 @@
 2022-10-04 15:01:54,401 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\DAM\2\Acceso a Datos\Ejercicios\Opcionales\ejercicio0129\src\main\resources
 2022-10-04 15:01:54,403 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-10-04 15:01:54,403 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\DAM\2\Acceso a Datos\Ejercicios\Opcionales\ejercicio0129\src\test\resources
+2022-10-04 19:50:40,098 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-10-04 19:57:11,236 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-04 19:57:11,237 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\DAM\2\Acceso a Datos\Ejercicios\Opcionales\ejercicio0124\src\main\resources
+2022-10-04 19:57:11,241 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-04 19:57:11,241 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\DAM\2\Acceso a Datos\Ejercicios\Opcionales\ejercicio0124\src\test\resources
+2022-10-04 19:57:11,463 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-04 19:57:11,463 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\DAM\2\Acceso a Datos\Ejercicios\Opcionales\ejercicio0126\src\main\resources
+2022-10-04 19:57:11,465 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-04 19:57:11,465 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\DAM\2\Acceso a Datos\Ejercicios\Opcionales\ejercicio0126\src\test\resources
+2022-10-04 19:57:28,447 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-04 19:57:28,447 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\DAM\2\Acceso a Datos\Ejercicios\Opcionales\ejercicio0127\src\main\resources
+2022-10-04 19:57:28,449 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-04 19:57:28,449 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\DAM\2\Acceso a Datos\Ejercicios\Opcionales\ejercicio0127\src\test\resources
+2022-10-04 19:57:45,385 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-04 19:57:45,386 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\DAM\2\Acceso a Datos\Ejercicios\Opcionales\ejercicio0129\src\main\resources
+2022-10-04 19:57:45,389 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-04 19:57:45,389 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\DAM\2\Acceso a Datos\Ejercicios\Opcionales\ejercicio0129\src\test\resources
+2022-10-04 19:58:54,339 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
