@@ -12,7 +12,15 @@ import java.util.List;
 import com.fran.serializacion.entidades.Persona;
 
 public class SerializacionUtils {
-	
+
+	/**
+	 * @autor Javier
+	 * @param directorio		Directorio donde se va a ubicar el fichero creado en la serialización
+	 * @param nombreArchivo		Nombre del fichero
+	 * @param p					Un objeto de la clase persona que se va a serializar
+	 * @return
+	 */
+	// Serializa un objeto de la clase Persona
 	public static boolean serializarPersona(String directorio, String nombreArchivo, Persona p) {
 		
 		File fichero = new File(directorio + "/" + nombreArchivo);
@@ -29,7 +37,15 @@ public class SerializacionUtils {
 		}
 		return false;
 	}
-	
+
+	/**
+	 * @autor Javier
+	 * @param directorio		Directorio donde se va a ubicar el fichero creado en la serialización
+	 * @param nombreArchivo		Nombre del fichero
+	 * @param personas			Lista de Personas a serializar
+	 * @return					Devuelve si la serialización ha sido correcta
+	 */
+	// Serializa una lista de la clase Persona
 	public static boolean serializarListaPersonas(String directorio, String nombreArchivo, List<Persona> personas) {
 		
 		File fichero = new File(directorio + "/" + nombreArchivo);
@@ -45,7 +61,15 @@ public class SerializacionUtils {
 		}
 		return false;
 	}
-	
+
+	/**
+	 * @autor Javier
+	 * @param directorio		Directorio donde se va a ubicar el fichero creado en la serialización
+	 * @param nombreArchivo		Nombre del fichero
+	 * @param objetos			Lista de objetos de cualquier clase a serializar
+	 * @param <T>				El tipo de datos que va a llamar al método
+	 * @return					Devuelve si la serialización ha sido correcta
+	 */
 	public static <T> boolean serializarListaObjetos(String directorio, String nombreArchivo, List<T> objetos) {
 		
 		File fichero = new File(directorio + "/" + nombreArchivo);
@@ -61,7 +85,14 @@ public class SerializacionUtils {
 		}
 		return false;
 	}
-	
+
+	/**
+	 * @autor Javier
+	 * @param directorio        Directorio donde se va a ubicar el fichero creado en la serialización
+	 * @param nombreArchivo		Nombre del fichero
+	 * @return					Devuelve un objeto de la clase Persona deserializada
+	 */
+	// Deserializa un fichero previamente serializado con un objeto de la clase Persona
 	public static Persona desSerializarPersona(String directorio, String nombreArchivo) {
 		
 		File fichero = new File(directorio + "/" + nombreArchivo);
@@ -80,7 +111,14 @@ public class SerializacionUtils {
 		} 
 		return null;
 	}
-	
+
+	/**
+	 * @autor Javier
+	 * @param directorio		Directorio donde se va a ubicar el fichero creado en la serialización
+	 * @param nombreArchivo		Nombre del fichero
+	 * @return					Devuelve una lista de objetos de la clase Persona deserializada
+	 */
+	// Deserializa un fichero previamente serializado con una lista de la clase Persona
 	public static List<Persona> desSerializarListaPersonas(String directorio, String nombreArchivo) {
 		
 		File fichero = new File(directorio + "/" + nombreArchivo);
@@ -100,24 +138,31 @@ public class SerializacionUtils {
 		return null;
 	}
 
+	/**
+	 * @autor Javier
+	 * @param directorio		Directorio donde se va a ubicar el fichero creado en la serialización
+	 * @param nombreArchivo		Nombre del fichero
+	 * @param <T>				Tipo de objeto que llama al método
+	 * @return					Devuelve una lista de objetos de cualquier deserializada
+	 */
+	// Deserializa un fichero previamente serializado con una lista de objetos genéricos
+	// y devuelve una lista de objetos
 	public static <T> List<T> desSerializarListaObjetos(String directorio, String nombreArchivo) {
 	
-	File fichero = new File(directorio + "/" + nombreArchivo);
-	try {
-		FileInputStream ficheroSalida = new FileInputStream(fichero);
-		ObjectInputStream ficheroObjetos = new ObjectInputStream(ficheroSalida);
-		List<T> objetos = (List<T>) ficheroObjetos.readObject();  // DesSerializa
-		ficheroObjetos.close();
-		return objetos;
-	} catch (FileNotFoundException e) {
-		e.printStackTrace();
-	} catch (IOException e) {
-		e.printStackTrace();
-	} catch (ClassNotFoundException e) {
-		e.printStackTrace();
-	} 
-	return null;
-}
-
-
+		File fichero = new File(directorio + "/" + nombreArchivo);
+		try {
+			FileInputStream ficheroSalida = new FileInputStream(fichero);
+			ObjectInputStream ficheroObjetos = new ObjectInputStream(ficheroSalida);
+			List<T> objetos = (List<T>) ficheroObjetos.readObject();  // DesSerializa
+			ficheroObjetos.close();
+			return objetos;
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		} catch (ClassNotFoundException e) {
+			e.printStackTrace();
+		}
+		return null;
+	}
 }

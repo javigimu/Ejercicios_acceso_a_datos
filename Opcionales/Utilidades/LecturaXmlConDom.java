@@ -9,7 +9,16 @@ import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
 public class LecturaXmlConDom {
-	
+
+	/**
+	 * @autor Javier
+	 * @
+ 	 * @param directorio 		Directorio donde está ubicado el fichero
+	 * @param nombreArchivo		Nombre del fichero xml
+	 * @return					Devuelve si se ha podido leer correctamente
+	 */
+
+	// Lee un fichero xml con DOM y devuelve un booleano indicando si se ha podido leer correctamente
 	public static boolean leerXmlConDom(String directorio, String nombreArchivo) {		
 		
 		boolean leidoCorrectamente = false;
