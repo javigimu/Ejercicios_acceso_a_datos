@@ -1,0 +1,1 @@
+los métodos que tienen el token es para añadir la key api

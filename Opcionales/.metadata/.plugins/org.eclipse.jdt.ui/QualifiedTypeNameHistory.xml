@@ -19,4 +19,16 @@
     <fullyQualifiedTypeName name="org.w3c.dom.Document"/>
     <fullyQualifiedTypeName name="com.javier.ejercicio0129.utilidades.SerializacionUtils"/>
     <fullyQualifiedTypeName name="java.io.Serializable"/>
+    <fullyQualifiedTypeName name="org.json.simple.parser.ParseException"/>
+    <fullyQualifiedTypeName name="com.javier.utilidades.utilidades"/>
+    <fullyQualifiedTypeName name="org.json.simple.JSONArray"/>
+    <fullyQualifiedTypeName name="org.json.simple.JSONValue"/>
+    <fullyQualifiedTypeName name="javafx.scene.control.Label"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="com.javier.utilidades.JsonUtils"/>
+    <fullyQualifiedTypeName name="com.javier.entidades.Usuario"/>
+    <fullyQualifiedTypeName name="java.util.function.Predicate"/>
+    <fullyQualifiedTypeName name="com.javier.utilidades.SerializationUtils"/>
+    <fullyQualifiedTypeName name="java.util.stream.Collector"/>
+    <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
 </qualifiedTypeNameHistroy>

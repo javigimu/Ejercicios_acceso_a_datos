@@ -1,0 +1,1 @@
+a los grados kelvin hay que restarle 273.15 para obtener grados celsius

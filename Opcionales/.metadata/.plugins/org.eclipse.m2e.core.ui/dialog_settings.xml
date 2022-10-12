@@ -2,6 +2,9 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\DAM\2\Acceso a Datos\Ejercicios\Opcionales\ejercicio0130"/>
+			<item value="C:\DAM\2\Acceso a Datos\Ejercicios\Opcionales\ejercicio0129"/>
+			<item value="C:\DAM\2\Acceso a Datos\Ejercicios\Opcionales\ejercicio0124"/>
 			<item value="C:\DAM\2\Acceso a Datos\Ejercicios\Opcionales\ejercicio0126"/>
 			<item value="C:\DAM\2\Acceso a Datos\Ejercicios\Opcionales"/>
 			<item value="C:\DAM\2\Acceso a Datos\Ejercicios\Opcionales\ejercicio0104\src\ejercicio0104\Ejercicio0104.java"/>
@@ -28,21 +31,18 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="com.javier.ejercicio0129"/>
-			<item value="com.javier.ejercicio0127"/>
-			<item value="com.javier.ejercicio0126"/>
-			<item value="com.javier.ejercicio0125"/>
-			<item value="com.javier.ejercicio0124"/>
+			<item value="com.javier.ejercicio0131"/>
+			<item value="com.javier.pruebafx.testfx"/>
+			<item value="com.javier.pruebafx.test.application"/>
 		</list>
 		<list key="groupId">
 			<item value="com.javier"/>
+			<item value="com.javier.pruebafx"/>
 		</list>
 		<list key="artifactId">
-			<item value="ejercicio0129"/>
-			<item value="ejercicio0127"/>
-			<item value="ejercicio0126"/>
-			<item value="ejercicio0125"/>
-			<item value="ejercicio0124"/>
+			<item value="ejercicio0131"/>
+			<item value="testfx"/>
+			<item value="test"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -74,5 +74,9 @@
 		<list key="version">
 			<item value="0.0.1-SNAPSHOT"/>
 		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
 	</section>
 </section>
