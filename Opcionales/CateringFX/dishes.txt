@@ -1,0 +1,7 @@
+Paella;Paella tradicional;2.0;Pollo;Pollo de campo;Dayly;true;false;false;false;10.0;20.0;5.0;4.0;Arroz;Paella 2;Dayly;false;false;false;true;30.0;0.0;50.0
+Huevos revueltos;Huevos revueltos con aceite de oliva;3.0;Huevo;Prueba 2;Dayly;false;false;false;true;30.0;0.0;50.0
+Ternera guisada;Falda de ternera tierna;
+Cerdo guisado;Carne de cerdo tierna;20.0;Carne de cerdo;Carne de cerdo tierna;Weekly;false;false;false;false;100.0;0.0;50.0
+Tortilla española;huevos;6.0;huevos;huevos;Daily;false;false;false;true;50.0;0.0;25.0
+Lasagne;Lasagne of meat;100.0;Mince;Mixed mince;Monthly;false;false;false;false;10.0;5.0;2.0;10.0;Onion;Onion;Diary;false;false;false;false;0.1;0.1;0.0;2.0;Tomato;Fried tomato;Diary;false;false;false;false;50.0;20.0;10.0;10.0;Pasta;Pasta sheets;Monthly;false;false;false;false;5.0;3.0;1.0;2.0;Bechamel;Bechamel;Monthly;false;true;false;false;10.0;8.0;2.0
+Nutella sandwich;Nutella sandwich;1.0;Nutella;Nutella;Monthly;false;true;false;false;200.0;50.0;100.0;1.0;Bread;Mole bread;Daily;true;false;false;false;100.0;80.0;0.0

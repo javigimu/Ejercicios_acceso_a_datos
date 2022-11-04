@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" styleClass="myBackGrounds" stylesheets="@../../../css/style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.javier.cateringfx.controllers.NutritionalLimitsController">
+   <children>
+      <VBox alignment="TOP_CENTER" prefHeight="400.0" prefWidth="600.0" spacing="20.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label maxHeight="-Infinity" maxWidth="-Infinity" styleClass="txtTitle" text="Modify nutritional limits">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Label>
+            <HBox alignment="CENTER" prefHeight="50.0" prefWidth="200.0" spacing="10.0">
+               <children>
+                  <Label maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="21.0" prefWidth="200.0" text="Calories">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="tbCaloriesLimit" maxHeight="-Infinity" maxWidth="-Infinity" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" layoutX="10.0" layoutY="73.0" prefHeight="50.0" prefWidth="200.0" spacing="10.0">
+               <children>
+                  <Label maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="21.0" prefWidth="200.0" text="Carbohydrates">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="tbCarboLimits" maxHeight="-Infinity" maxWidth="-Infinity" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" layoutX="10.0" layoutY="183.0" prefHeight="50.0" prefWidth="200.0" spacing="10.0">
+               <children>
+                  <Label maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="21.0" prefWidth="200.0" text="Fat">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="tbFatLimits" maxHeight="-Infinity" maxWidth="-Infinity" />
+               </children>
+            </HBox>
+            <Button maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" onAction="#setNutritionalLimits" prefHeight="31.0" prefWidth="80.0" text="Save" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

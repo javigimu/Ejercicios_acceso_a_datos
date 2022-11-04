@@ -1,0 +1,9 @@
+Steak;Pork steak;Weekly;false;false;false;false;120.0;0.0;200.0
+Bread;Wheat bread;Daily;true;false;false;false;20.0;100.0;0.0
+Egg;Eggs;Weekly;false;false;false;true;30.0;0.0;30.0
+Potato;Potato to cook;Daily;false;false;false;false;75.0;18.0;0.1
+Coocking cream;Coocking cream to make sauce;Weekly;false;true;false;false;90.0;4.4;12.2
+Chips;Fried potatoes;Weekly;false;false;false;false;312.0;41.0;30.0
+Nutella;Cocoa cream;Monthly;false;true;true;false;180.0;60.0;30.0
+Banana;Banana;Weakly;false;false;false;false;89.0;23.0;0.0
+Apple;Piece of apple;Weekly;false;false;false;false;52.0;14.0;0.0

@@ -1,0 +1,33 @@
+.root, .myBackGrounds {
+    -fx-background-color: #5F9EA0;
+    -fx-color: #4682B4;
+}
+
+.label{
+    -fx-text-fill: "white";
+}
+
+.button {
+    -fx-color: "black";
+    -fx-text-fill: "white";
+}
+
+.txtTitle {
+    -fx-text-fill: "blue";
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(#2A5058, #61a2b1);
+}
+
+.txtNutritionalProperties {
+    -fx-text-fill: "red";
+}
+
+.txtNewAliment {
+    -fx-text-fill: "white";
+}
+
+.txtPurple {
+    -fx-text-fill: "purple";
+}
